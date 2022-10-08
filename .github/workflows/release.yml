@@ -3,9 +3,10 @@ name: Build Collector Docker Image
 on:
   # manually triggered by GitHub Action menu for testing/validation
   workflow_dispatch:
-  #push:
-  #  branches:
-  #    - 'main'
+  push:
+   branches:
+     - 'main'
+
 
 jobs:
   Deploy:
